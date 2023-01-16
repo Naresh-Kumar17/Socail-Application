@@ -58,6 +58,7 @@ firebase.auth().onAuthStateChanged((user) => {
                 .doc(allPosts[postIndex].uid)
                 .get()
                 .then((userData) => {
+                  // 
                   userProfile.setAttribute(
                     "src",
                     userData.data().profileImagePath === ""

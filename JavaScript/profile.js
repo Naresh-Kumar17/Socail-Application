@@ -50,6 +50,7 @@ var uid;
 firebase.auth().onAuthStateChanged((user) => {
   if (user) {
     // console.log(user);
+    // uid === uid
     uid = user.uid;
     if (user.emailVerified) {
       firebase

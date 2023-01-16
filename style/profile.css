@@ -316,3 +316,9 @@ left: 100px;
     
 }
 
+
+@media only screen and (max-width: 560px) {
+    #profileHeader,#coverImages,#container-inner, #Postinput,input{
+        width: 100%;
+    }
+}

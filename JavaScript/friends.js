@@ -88,12 +88,15 @@ firebase.auth().onAuthStateChanged((user) => {
                 hidedropdown.style.display = "block"
                 dropdownshow.style.display = "none"
                 userprofile.style.display = "flex"
+                hidedropdown.style.width="100%"
+
             })
 
             hidedropdown.addEventListener("click" ,()=>{
                 dropdownshow.style.display = "block"
                 hidedropdown.style.display = "none"
-                userprofile.style.display = "none"
+                userprofile.style.display = "none";
+                hidedropdown.style.width="100%"
             })
           });
         });

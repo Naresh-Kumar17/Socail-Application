@@ -55,4 +55,7 @@
       height: auto;
 
     }
+    .button{
+        width: 100%;
+    }
   }

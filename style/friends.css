@@ -105,12 +105,14 @@
     border-radius: 20px;
     height: 35px;
     width: 340px;
+
     padding: 0px 10px;
     margin-left: 10px;
     vertical-align: m
 }
-/* @media only screen and (max-width: 560px) {
-    #loader{
-        width: 50%;
+@media only screen and (max-width: 560px) {
+    #loader,#userprofilemain,#allusers,#usercover,#postinput,#coverpicture{
+        width: 100% !important;
+        max-width: 100% !important;
     }
-} */
+}
