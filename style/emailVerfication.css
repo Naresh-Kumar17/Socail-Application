@@ -1,0 +1,58 @@
+#container-forgotpassword{
+    background-color: var(--boxbackground);
+    height: auto;
+    width: 450px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#emalpic{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+#innercontainer-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#innercontainer-1stchild{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#Email{
+    color: var(--button);
+}
+#buttonParent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    
+}
+.button {
+    background-color: var(--button);
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 15px;
+    color: var(--text);
+    font-size: 20px;
+    height: 30px;
+    cursor: pointer;
+
+
+}
+
+@media only screen and (max-width:440px) {
+    #container-forgotpassword {
+      width: 100%;
+      height: auto;
+
+    }
+  }

@@ -1,0 +1,116 @@
+#loader {
+    background-color: var(--boxbackground);
+    height: 80px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10x;
+}
+#users{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 8px;
+    border-radius: 10px;
+    max-height: 80vh;
+    overflow: auto;
+}
+#userdetailsdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #dfdfdf;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.userimg > img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+#data{
+    width: 80%;
+    margin-left: 10px;
+}
+.username{
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.postdate{
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+.dropdown{
+    width: 10%;
+    height: 100%;
+}
+.dropdownbutton{
+    cursor: pointer;
+    padding: 10px;
+    color: #3360f9;
+}
+#hidedropdown{
+    display: none;
+}
+#loader{
+    width: 400px;
+    margin-top: 10px;
+}
+#userprofilemain{
+    position: relative;
+    background-color: var(--boxbackground);
+    border: 2px solid #dfdfdf;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 5px;
+    width: 390px;
+}
+
+#allusers{
+    width: 400px;
+    margin-top: 10px;
+    background-color: var(--boxbackground);
+    border-radius: 10px;
+
+    
+}
+#userprofilepicture{
+    border-radius: 50%;
+    position: absolute;
+    bottom: 25px;
+    /* left: 15px; */
+    height: 40px;
+}
+#usercover{
+    margin-bottom: 8%;
+    max-height: 200px;
+    max-width: 300px;
+    /* width: 440px !important; */
+}
+#coverpicture{
+    width: 390px;
+    border-radius: 10px;
+    height: 300px;
+}
+#postinput{
+    border: none;
+    background-color: var(--primary);
+    border-radius: 20px;
+    height: 35px;
+    width: 340px;
+    padding: 0px 10px;
+    margin-left: 10px;
+    vertical-align: m
+}
+/* @media only screen and (max-width: 560px) {
+    #loader{
+        width: 50%;
+    }
+} */

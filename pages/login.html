@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/fluency/2x/login-rounded-right.png">
+    <link rel="stylesheet" href="./../MainCss/main.css">
+    <link rel="stylesheet" href="./../style/login.css">
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-firestore.js"></script>
+    <script>
+         const firebaseConfig = {
+    apiKey: "AIzaSyD6XavICZENDLVzp48kC1sN7Ne0Qi7Lfmw",
+    authDomain: "final-assignment-34f6b.firebaseapp.com",
+    databaseURL: "https://final-assignment-34f6b-default-rtdb.firebaseio.com",
+    projectId: "final-assignment-34f6b",
+    storageBucket: "final-assignment-34f6b.appspot.com",
+    messagingSenderId: "385425878396",
+    appId: "1:385425878396:web:2b9b7c833dce05098808f9",
+    measurementId: "G-B839T811F3"
+  };
+  firebase.initializeApp(firebaseConfig)
+
+    </script>
+    
+</head>
+
+<body>
+    <div class="container">
+    <div id="maincontianer">
+        <div id="innnercontainer">
+            <div id="login">
+                <h3>Log In</h3>
+            </div>
+            <div id="innercontainer-child">
+                <p class="changefontsize">Email Address :</p >
+                <input type="email" id="email" placeholder="Email Address">
+                <p class="changefontsize">Password :</p >
+                <input type="password" name="password" id="password" placeholder="Password">
+                <p id="message"></p>
+                <button  onclick="loginhandler()" id="button">Login</button>
+                <!-- <input type="submit" id="button" value="Login" onclick="login()" > -->
+            </div>
+            <div id="forgotpassword"><a href="./passwordForgot.html"><h5>Forgot Password?</h5></a></div>
+            <div id="innercontainer-2ndchild">
+                <p>Already not a member? <a href="./signUp.html">SignUp</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./../JavaScript/login.js"></script>
+</html>

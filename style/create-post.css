@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#createpostsectionarea {
+    background-color: var(--boxbackground);
+    border-radius: 10px;
+    width: 390px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    position: relative;
+    height: 350px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    /* position: absolute; */
+}
+
+#textarea {
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 15px;
+    width: 360px;
+    min-width: auto;
+    max-width: 360px;
+    overflow: auto;
+    height: 200px;
+    max-height: 250px;
+    scroll-behavior: smooth;
+    /* position:absolute; */
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--button);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 100, 208);
+}
+
+label{
+    margin-top: 15px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    cursor: pointer;
+font-size: 16;
+font-weight: 500;
+
+
+}
+
+.fa-upload {
+    color: var(--button);
+    font-size: 20px;
+    margin-left: -15px;
+}
+
+input {
+    display: none;
+}
+.fa-solid:hover{
+    background: none;
+}
+.progress {
+    display: none;
+}
+#butoonheader{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.button{
+    background-color: var(--button);
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    margin-top: 15px;
+    color: var(--text);
+    font-size: 20px;
+    height: 30px;
+    cursor: pointer;
+
+}
+.progress{
+    display: none;
+}

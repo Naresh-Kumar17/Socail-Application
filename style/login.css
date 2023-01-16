@@ -1,0 +1,62 @@
+#maincontianer {
+    background-color: var(--boxbackground);
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+
+}
+#innercontainer-child{
+margin-top: 50px;
+}
+
+
+#button {
+    background-color: var(--button);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    color: var(--text);
+    font-size: 20px;
+
+}
+#innercontainer-2ndchild{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.changefontsize{
+    font-weight: 500;
+
+}
+#innercontainer-2ndchild a{
+    text-decoration: none;
+    color: var(--siguptext);
+}
+#forgotpassword a{
+    display: flex;
+justify-content: flex-end;
+text-decoration: none;
+color: var(--siguptext);
+margin-right: 8px;
+margin-top: 5px;
+/* font-weight: 600; */
+color:var(--black) ;
+}
+
+@media only screen and (max-width:440px) {
+    #maincontianer {
+      width: 100%;
+      height: auto;
+
+    }
+  }

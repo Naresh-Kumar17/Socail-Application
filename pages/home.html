@@ -1,0 +1,88 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon"
+        href="https://t4.ftcdn.net/jpg/00/91/11/69/240_F_91116980_6e16bJEBdt59sh1jUIZHWongFtCmohPl.jpg"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./../MainCss/main.css">
+    <script src="https://kit.fontawesome.com/943d3a24af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./../style/home.css">
+
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-storage.js"></script>
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyD6XavICZENDLVzp48kC1sN7Ne0Qi7Lfmw",
+            authDomain: "final-assignment-34f6b.firebaseapp.com",
+            databaseURL: "https://final-assignment-34f6b-default-rtdb.firebaseio.com",
+            projectId: "final-assignment-34f6b",
+            storageBucket: "final-assignment-34f6b.appspot.com",
+            messagingSenderId: "385425878396",
+            appId: "1:385425878396:web:2b9b7c833dce05098808f9",
+            measurementId: "G-B839T811F3"
+        };
+        firebase.initializeApp(firebaseConfig)
+
+    </script>
+        </script>
+
+        <style>
+
+        </style>
+
+</head>
+
+<body>
+
+    <div>
+        <div id="top-header">
+            <div class="top-header-1stChild">
+                <a href="./home.html" id="homeicon"> <i class="fa-solid fa-house"></i></a>
+            </div>
+            <div>
+                <a href="./friends.html"  id="profileicon"><i class="fa-solid fa-users"></i></a>
+            </div>
+            <div>
+              <a href="./videos.html" id="videosicon">  <i class="fa-solid fa-video"></i></a>
+            </div>
+            <div>
+             <a href="./create-post.html" id="createposticon">   <i class="fa-solid fa-circle-plus"></i></a>
+            </div>
+            <div>
+            <a href="./profile.html" id="userprofile"> <i class="fa-solid fa-user"></i></a>
+            </div>
+            <div>
+                <button class="buttoon" onclick="Logout()">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                </button>
+              
+            </div>
+        </div>
+        <div id="container-inner">
+            <div id="container-inner-child">
+                <div >
+                    <img src="./../icons/user (3).png" alt="user profile" id="userProfile">
+                </div>
+                <div>
+                    <input type="text" id="Postinput" placeholder="What's on your mind," id="inputValue">
+                </div>
+            </div>
+        </div>
+
+    <div id="loadar"> <img src="https://idaramsb.net/assets/uploads/loader/loader.gif" alt="loader" height="100px" id="loader"></div>
+        <div id="postheader">
+
+        </div>
+    </div>
+</body>
+<script src="./../JavaScript/home.js"></script>
+
+</html>

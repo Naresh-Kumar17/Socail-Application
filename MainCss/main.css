@@ -1,0 +1,137 @@
+:root {
+    --primary: #f0f2f5;
+    --button: #3360F8;
+    --siguptext: #2f45cf;
+    --boxbackground: #ffffff;
+    --error: red;
+    --success: green;
+    --text: #fff;
+    --paragraph: #717579;
+    --black: #000;
+    --input: lightgrey;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.container {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: row;
+    height: auto;
+}
+
+input {
+    height: 25px;
+    width: 100%;
+    outline: none;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    /* border: 1px solid; */
+    border: 1px solid var(--input);
+
+}
+
+#button {
+    background-color: var(--button);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 15px;
+    color: var(--text);
+    font-size: 20px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+#signUp {
+    margin-left: 0px;
+}
+
+
+/* top header icons */
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: row;
+}
+
+.buttoon {
+    border: none;
+    background: none
+}
+
+.fa-solid:hover {
+    color: blue;
+    background-color: var(--primary);
+
+
+}
+
+.fa-video:active {
+
+    color: blue;
+    background-color: var(--primary);
+}
+
+.fa-solid:active {}
+
+.fa-solid {
+    font-size: 20px;
+    /* background-color: lightgray;  */
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    justify-content: space-between;
+}
+
+#top-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    background-color: var(--boxbackground);
+    height: 35px;
+    border-radius: 10px;
+    width: 390px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 5px;
+    /* width: 100%; */
+
+
+}
+
+#createposticon,
+#videosicon,
+#profileicon,
+#userprofile,
+#homeicon {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* @media only screen and (max-width:440px) {
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: var(--success);
+
+    }
+  } */

@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SigUp</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/color/2x/login-rounded-down.png">
+    <link rel="stylesheet" href="./../MainCss/main.css">
+    <link rel="stylesheet" href="./../style/signUp.css">
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-firestore.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyD6XavICZENDLVzp48kC1sN7Ne0Qi7Lfmw",
+            authDomain: "final-assignment-34f6b.firebaseapp.com",
+            databaseURL: "https://final-assignment-34f6b-default-rtdb.firebaseio.com",
+            projectId: "final-assignment-34f6b",
+            storageBucket: "final-assignment-34f6b.appspot.com",
+            messagingSenderId: "385425878396",
+            appId: "1:385425878396:web:2b9b7c833dce05098808f9",
+            measurementId: "G-B839T811F3"
+        };
+        firebase.initializeApp(firebaseConfig)
+
+    </script>
+
+</head>
+
+<body>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-xxl-12 col-xl-12 col-lg-8 col-md-6 col-sm-6">
+
+                <div id="container">
+                    <div>
+                        <div id="signUp">Sign Up</div>
+                        <div id="innercontainer-signup">
+                            <p>First Name :</p>
+                            <input type="text" id="firstName" placeholder="First Name">
+                            <p>Last Name :</p>
+                            <input type="text" id="lastName" placeholder="Last Name">
+                            <p>Mobile Number :</p>
+                            <input type="number" id="MobileNumber" placeholder="Mobile Number">
+                            <p>Email Address :</p>
+                            <input type="email" id="email" placeholder="Email Address">
+                            <p>Password :</p>
+                            <input type="password" name="password" id="password" placeholder="Password">
+                            <p> Re-enter Password :</p>
+                            <input type="password" name="password" id="ReEnterPassword" placeholder="Password">
+                            <p id="message"></p>
+
+                            <div>
+                                <button id="button" onclick="SignUp()">Sign Up</button>
+                            </div>
+                            <div id="footer">
+                                <p>Already have an account?<a href="./login.html"> Sign In</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./../JavaScript/signUp.js"></script>
+
+</html>
